@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airsoft Connect</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Airsoft Connect</h1>
+        <p>Connect with fellow airsoft enthusiasts in your area!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="FindGroup.html">Find Group</a></li>
+            <li><a href="Events.html">Event listings</a></li>
+        </ul>
+    </nav>
+
+     <!-- Group Search Form -->
+     <section id="group-search">
+        <h2>Search for Airsoft Groups</h2>
+        <form id="group-search-form">
+            <label for="group-name">Group Name:</label>
+            <input type="text" id="group-name" placeholder="Enter group name">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <!-- Display Group Search Results -->
+    <section id="group-results">
+        <h2>Search Results</h2>
+        <ul id="group-list">
+            <!-- Group search results will be added here dynamically -->
+        </ul>
+    </section>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <p>If you have any questions, suggestions, or need assistance, please don't hesitate to get in touch with us:</p>
+        <address>
+            Email: <a href="mailto:info@airsoftconnect.com">info@airsoftconnect.com</a><br>
+            Phone: (123) 456-7890
+        </address>
+        <p>&copy; 2023 Airsoft Connect. All rights reserved.</p>
+    </footer>
+    <script src="js/Group.js"></script>
+</body>
+</html>
